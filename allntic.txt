@@ -13,3 +13,12 @@ Je suis APA
  git push -u origin main
  git push origin main(ssh) 
  git reset --soft id
+
+ Les commande git branch
+ Git branch new_branch
+ Git checkout new_branche
+ Git push -u origin new_branch
+ Git branch -av
+ Git merge new_branch
+ Git branch -D new_branch
+ Git push origin -delete new_branch
