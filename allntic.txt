@@ -5,9 +5,11 @@ Je suis APA
  les commande git
  
  git init
- git add .
+ git add . 
+ git status
+ git log
  git commit -m "description"
  git add remote origin serveur_repo
  git push -u origin main
  git push origin main(ssh) 
- 
+ git reset --soft id
