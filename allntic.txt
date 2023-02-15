@@ -3,7 +3,9 @@ Bienvenu chez ALLNTIC
 Je suis APA	
  
  les commande git
- 
+
+ git config --global user:name "nom"
+ git config --global user:email mail
  git init
  git add . 
  git status
@@ -11,8 +13,11 @@ Je suis APA
  git commit -m "description"
  git add remote origin serveur_repo
  git push -u origin main
- git push origin main(ssh) 
+ git push origin main(ssh)
+ git pull
  git reset --soft id
+ git reset -hard HEAD
+ git revert id_commit
 
  Les commande git branch
  Git branch new_branch
